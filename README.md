@@ -64,6 +64,6 @@
 
   ## Heroku Info
 
-  https://damp-depths-69156.herokuapp.com/ | https://git.heroku.com/damp-depths-69156.git
+  https://damp-depths-69156.herokuapp.com/ 
 
 
