@@ -62,4 +62,13 @@ router.post('/notes', (req, res) => {
     });
 });
 
+router.delete("/notes/:id", (req, res) => {
+    const idToDelete = req.params.id 
+    // read the db.json
+    // loop over them
+    // find the object where obj.id = idToDelete
+    // remove that object from the array of objects - .splice() .slice()  .filter() id !== idToDelete 
+    // rerite the obj to store 
+})
+
 module.exports = router;
