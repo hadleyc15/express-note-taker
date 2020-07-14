@@ -13,11 +13,7 @@ app.use(express.static("public"));
 app.use('/api', apiRoute);
 app.use('/', htmlRoute);
 
-//BONUS CODE
-//ADD CODE HERE TO GET NOTES TO DELETE BY PUSHING THE TRASH CAN ICON.....
-
-
 //Listens and sends the data to a specific port
 app.listen(PORT, () => {
     console.log(`App listening on PORT ${PORT}`);
-  });
+});

@@ -4,7 +4,7 @@ const { v4: uuidv4 } = require('uuid');
 
 router.get('/notes', (req, res) => {
     //looks for any previous notes
-    
+
     fs.readFile('db/db.json', 'utf8', function (err, data) {
 
         let noteData = [];
@@ -26,7 +26,7 @@ router.get('/notes', (req, res) => {
 router.post('/notes', (req, res) => {
 
     let newNote = {
-        title: req.body.title, 
+        title: req.body.title,
         text: req.body.text,
         id: uuidv4(),
     };
@@ -62,13 +62,15 @@ router.post('/notes', (req, res) => {
     });
 });
 
-router.delete("/notes/:id", (req, res) => {
-    const idToDelete = req.params.id 
-    // read the db.json
-    // loop over them
-    // find the object where obj.id = idToDelete
-    // remove that object from the array of objects - .splice() .slice()  .filter() id !== idToDelete 
-    // rerite the obj to store 
-})
+//Delete note stuff
+
+//router.delete("/notes/:id", (req, res) => {
+//const idToDelete = req.params.id 
+// read the db.json
+// loop over them
+// find the object where obj.id = idToDelete
+// remove that object from the array of objects - .splice() .slice()  .filter() id !== idToDelete 
+// rerite the obj to store 
+//})
 
 module.exports = router;
