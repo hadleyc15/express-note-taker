@@ -25,6 +25,7 @@
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
+  * [Heroku](#heroku)
 
   ## Installation
   
@@ -62,7 +63,7 @@
     
   Shoot me an email, I will do my best to get back to you.  
 
-  ## Heroku Info
+  ## Heroku 
 
   https://damp-depths-69156.herokuapp.com/ 
 
